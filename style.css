@@ -1,0 +1,67 @@
+body {
+    background-color:#0e0e0e ;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3px;
+
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-right: 10px;
+}
+
+.score-text {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+
+.immg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+#paper {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#Scissor {
+    margin-left: 10px;
+}
+
+img {
+    border-radius: 50%;
+    border: solid blue 5px;
+}
+
+img:hover {
+
+    border: solid  aqua 5px;
+}
+#cscore{
+    margin-left: 50px;
+}
+#uscore{
+    margin-right: 50px;
+}
